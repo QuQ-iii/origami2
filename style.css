@@ -1,0 +1,29 @@
+.head{
+      
+  background-color:white;
+  border:solid;
+   }
+
+
+
+.grid {
+  
+  display: flex;
+  display : flex;
+    justify-content: space-evenly;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.item{
+  margin : 10px;
+  width: 200px;
+  height: 350px;
+  padding: 30px;
+  background-color: white;
+  opacity:1;
+}
+
+.item:hover{
+  opacity: 0.5;
+}
